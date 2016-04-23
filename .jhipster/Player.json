@@ -1,0 +1,27 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "baskets",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "min"
+            ],
+            "fieldValidateRulesMin": 0
+        },
+        {
+            "fieldName": "position",
+            "fieldType": "Position",
+            "fieldValues": "POINT_GUARD, SHOOTING_GUARD, SMALL_FORWARD, POWER_FORWARD, CENTER"
+        }
+    ],
+    "changelogDate": "20160423111646",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "player",
+    "pagination": "no"
+}
